@@ -30,6 +30,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding-top: 50px;
 }
 
+.first-header {
+	margin-top: 0px;
+}
+
 .intro-message {
 	position: relative;
 	padding-top: 20%;
