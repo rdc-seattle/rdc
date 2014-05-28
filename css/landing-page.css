@@ -8,6 +8,20 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .lead {
 	font-size: 18px;
 	font-weight: 400;
@@ -54,6 +68,15 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message > h3 {
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.img-founder {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -155,9 +178,9 @@ body, h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-footer {
+#footer {
 	background-color: #f8f8f8;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 
 p.copyright {
