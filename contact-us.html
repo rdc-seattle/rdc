@@ -75,19 +75,57 @@
            </div>
 
            <div class="col-md-6">
-               <h3>Contact the RDC</h3>
-               <!-- need the contact us forms to go here -->
-           </div>
+               <h3>Contact the RDC</h3></br>
+               <p>Are you dancer, choreographer or a community member? We would love to hear from you. And join our quarterly newsletter distribution list!</p>
+               <div class="container pt">
+</div>
+    
+    
+<form method="post" action="forms/formmail.php" name="SampleForm" id="rsvpform">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
 
-       </div> <!-- /row -->
+    <!-- STEP 2: Put your email address in the 'recipients' value.
+                 Note that you also have to allow this email address in the
+                 $TARGET_EMAIL setting within formmail.php!
+    -->
+    <input type="hidden" name="recipients" value="amylsanford@gmail.com" />
 
-   </div>
-   <!-- /.container -->
+    <!-- STEP 3: Specify required fields in the 'required' value - or leave unchanged.
+            NOTE: DO NOT put your email address and name here.
+            "Your email address" and "Your name" are error messages for your users to see,
+            not placeholders for you to replace.
+    -->
+    <input type="hidden" name="required" value="EmailAddr:Your email address,FullName:Your name" />
+
+    <!-- STEP 4: Put your subject line in the 'subject' value. -->
+    <input type="hidden" name="subject" value="Sample FormMail Testing" />
+
+    <!-- ALL DONE! Visit our site for HOW TO guides and more complex features. -->
+
+    <!-- this derives (creates) "email" and "realname" special fields from the input fields -->
+    <input type="hidden" name="derive_fields" value="email=EmailAddr,realname=FullName" />
+
+    <!-- this excludes the "email" and "realname" special fields from the body of the email you receive -->
+    <input type="hidden" name="mail_options" value="Exclude=email;realname" />
+
+        <p>Please enter your name:</p>
+        <input type="text" name="FullName" />
+        <p>Please enter your email address:</p>
+        <input type="text" name="EmailAddr" />
+        
+        <p>Would you like to subscribe to the newsletter?</p>
+            <input type="checkbox" name="Attending" value="Yes" /> Yes!     
+
+        </br><p><input type="submit" value="Submit" /></p>
+
+ </div>
+  </div><!-- /row -->
+</div><!-- /container -->
+
+</body>
+</html>
 
    <!-- JavaScript -->
    <script src="js/jquery-1.10.2.js"></script>
    <script src="js/bootstrap.js"></script>
 
-</body>
-
-</html>
