@@ -26,6 +26,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 50px;
 }
 
+.drop-show {
+	margin-top: 85px;
+}
+
 .lead {
 	font-size: 18px;
 	font-weight: 400;
@@ -83,12 +87,20 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 }
 
+
+.show-details {
+	text-align: right;
+	font-size: 12px;
+	margin-top: -20px;
+	padding-bottom: 10px;
+}
+
 .img-founder-bio {
-	 display: block;
-  height: auto;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+  	height: auto;
+  	width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
 	margin-top: 20px;
 }
 
