@@ -87,11 +87,29 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 }
 
+
 .show-details {
 	text-align: right;
 	font-size: 12px;
 	margin-top: -20px;
 	padding-bottom: 10px;
+}
+
+.img-founder-bio {
+	display: block;
+  	height: auto;
+  	width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 20px;
+}
+
+.divider-large {
+	padding: 75px;
+}
+
+.divider-small {
+	padding: 25px;
 }
 
 @media (max-width: 767px) {
@@ -144,6 +162,13 @@ body, h1, h2, h3, h4, h5, h6 {
 	border-top: 3px solid #e7e7e7;
 	width: 200px;
 	float: left;
+}
+.bio-header {
+	background-color: #f8f8f8;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
 }
 
 .banner {
