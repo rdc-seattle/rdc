@@ -3,9 +3,28 @@ body, html {
 	width: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
+	background-color: #F8F8FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #CC4F00;
+}
+
+a:link {
+    color: #CC4F00;
+}
+
+a:visited {
+	color:#CC4F00;
+}
+
+a:hover {
+	color: #CC4F00;
 }
 
 .centered {
@@ -166,7 +185,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section-a {
-	background-color: #DFE6F2;
+	background-color: #F8F8FF;
 	padding: 50px 0;
 }
 
@@ -174,7 +193,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
 	padding: 50px 0;
-	background-color: #CDF1F2;
+	background-color: #F8F8FF;
 }
 
 .section-heading {
