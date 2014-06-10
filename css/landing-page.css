@@ -51,6 +51,8 @@ a:hover {
 }
 
 .drop-show {
+	height: 250px;
+	width: 350px;
 	margin-top: 85px;
 }
 
