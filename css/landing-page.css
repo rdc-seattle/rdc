@@ -24,7 +24,27 @@ a:visited {
 }
 
 a:hover {
-	color: #CC4F00;
+	color: #803100;
+}
+
+.sponsor a:link {
+	color: black;
+}
+
+.sponsor a:visited {
+	color: black;
+}
+
+.sponsor a:hover {
+	color: #803100;
+}
+
+.lm {
+	margin-left: 15px;
+}
+
+.lm2 {
+	margin-left: 25px;
 }
 
 .centered {
@@ -115,19 +135,18 @@ a:hover {
 
 .fade {
 	 -webkit-opacity: 0.4;
-  -moz-opacity: 0.4;
-  opacity: 0.4;
--webkit-transition: all 3s ease;
-  -moz-transition: all 3s ease;
-  -ms-transition: all 3s ease;
-  -o-transition: all 3s ease;
-  transition: all 3s ease;
+     -moz-opacity: 0.4;
+      opacity: 0.4;
+     -moz-transition: all 3s ease;
+     -ms-transition: all 3s ease;
+     -o-transition: all 3s ease;
+     transition: all 3s ease;
 }
 
 .fade:hover {
 	-webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
+    -moz-opacity: 1;
+     opacity: 1;
 }
 
 
@@ -136,15 +155,6 @@ a:hover {
 	font-size: 12px;
 	margin-top: -20px;
 	padding-bottom: 10px;
-}
-
-.img-founder-bio {
-	display: block;
-  	height: auto;
-  	width: 50%;
-  	margin-left: auto;
-  	margin-right: auto;
-	margin-top: 20px;
 }
 
 .divider-large {
